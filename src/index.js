@@ -54,11 +54,11 @@
 //     яка буде через передану кількість днів після заданої дати: const result = addDays(new Date(2014, 8, 1), 10)
 // import { addDays, format } from "date-fns";
 
-// function addDaysToDate(dateString, days) {
-//     const result = (addDays(new Date(dateString), days))
-//    return format(result, "y-MM-d")
+function addDaysToDate(dateString, days) {
+    const result = (addDays(new Date(dateString), days))
+   return format(result, "y-MM-d")
   
     
-// }
+}
 
-// console.log(addDaysToDate("2022-05-04", 7)); // => "2022-05-11"
+console.log(addDaysToDate("2022-05-04", 7)); // => "2022-05-11"
